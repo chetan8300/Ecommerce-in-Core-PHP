@@ -1,0 +1,57 @@
+body{
+    padding-top: 50px;
+}
+
+.img-thumb{
+    width: auto;
+    height: 200px;
+}
+
+#footer{
+    margin-top: 50px;
+}
+
+img.details{
+    width: 33%;
+    margin: 15px auto;
+}
+
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    height: auto;
+}
+
+.table-auto{
+    width: auto;
+    margin: 0 auto;
+}
+
+th{
+    text-align: center;
+}
+
+.top-margin-cotainer{
+    margin-top: 50px;
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+#login-form{
+    width: 35%;
+    height: 60%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+    margin: 7% auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.profile-right{
+    float: right;
+}
