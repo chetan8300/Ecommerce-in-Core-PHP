@@ -8,11 +8,11 @@
     define('CHECKOUTMODE', 'TEST'); //can change mode to live when website goes live 
     
     if(CHECKOUTMODE == 'TEST'){
-        define('STRIPE_PRIVATE', 'sk_test_NLLjokbhzc1bZpxnzd6HRmfj');
-        define('STRIPE_PUBLIC', 'pk_test_wtNzmuymewiBPlbcLVPwacv4');
+        define('STRIPE_PRIVATE', 'STRIPE_PRIVATE Test Key');
+        define('STRIPE_PUBLIC', 'STRIPE_PUBLIC Test Key');
     }
     
     if(CHECKOUTMODE == 'LIVE'){
-        define('STRIPE_PRIVATE', 'sk_live_vojUpOzFBaW2oc3wFU1JmRUh');
-        define('STRIPE_PUBLIC', 'pk_live_U161avf2wuScLN1UBUyGBPlh');
+        define('STRIPE_PRIVATE', 'STRIPE_PRIVATE Live Key');
+        define('STRIPE_PUBLIC', 'STRIPE_PUBLIC Live Key');
     }
