@@ -1,6 +1,6 @@
 <?php
     define('BASEURL', $_SERVER['DOCUMENT_ROOT'].'/ecommerce/');
-    define('CART_COOKIE','JDSFijnf34532kafsajNEAS9A8');
+    define('CART_COOKIE','any random string');
     define('CART_COOKIE_EXPIRE',  time() + (86400 * 30));
     define('TAXRATE',0.087);
     
